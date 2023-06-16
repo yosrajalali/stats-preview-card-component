@@ -43,17 +43,19 @@ img {
   width: 100%;
   display: block;
   border-radius: 0.6rem 0.6rem 0 0;
+  mix-blend-mode: multiply;
+  opacity: 0.75;
 }
 
 .img__container {
   position: relative;
   background-color: var(--Soft-violet-accent);
+  border-radius: 0.6rem 0.6rem 0 0;
 }
 
-.img__container img {
-  mix-blend-mode: multiply;
-  opacity: 0.75;
-}
+/* .img__container img {
+ 
+} */
 
 .insights {
   font-size: 1.8rem;
@@ -101,6 +103,9 @@ span {
   .content {
     text-align: start;
     padding: 3rem;
+  }
+  .img__container {
+    border-radius: 0 0.6rem 0.6rem 0;
   }
   img {
     width: 540px;
